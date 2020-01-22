@@ -42,7 +42,7 @@ def naming_system
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
   p "Portion 3 = #{PORTION_3}"
-  p "Genus = #{PORTION_3[:label][:sub_category]}"
+  p "Genus = #{PORTION_3[:label][:sub_category][:label]}"
   
   {}
 end
