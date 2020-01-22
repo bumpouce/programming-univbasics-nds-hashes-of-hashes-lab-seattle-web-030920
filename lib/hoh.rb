@@ -43,6 +43,6 @@ def naming_system
   # HoH all the way to Species!
   
   classification = PORTION_3[:sub_category][:label][PORTION_4]
-  
+  p "Lower classification = #{classification}"
   {}
 end
