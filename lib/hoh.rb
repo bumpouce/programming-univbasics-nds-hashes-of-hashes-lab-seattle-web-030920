@@ -43,8 +43,8 @@ def naming_system
   # HoH all the way to Species!
   puts "Original data, PORTION_4: #{PORTION_4}"
   puts "Original data, PORTION_3: #{PORTION_3[:sub_category][:sub_category]}" 
-  puts "Original data, PORTION_2: #{PORTION_2[:sub_category][:sub_category]}" 
-  puts "Original data, PORTION_1: #{PORTION_1[:sub_category][:sub_category][:sub_category]}"
+  puts "Original data, PORTION_2: #{PORTION_2[:sub_category]}" 
+  puts "Original data, PORTION_1: #{PORTION_1[:sub_category]}"
   
   
 #  PORTION_3[:sub_category][:sub_category] =  PORTION_4
