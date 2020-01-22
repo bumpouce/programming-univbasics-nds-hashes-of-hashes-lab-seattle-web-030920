@@ -47,11 +47,11 @@ def naming_system
   puts "Original data, PORTION_1: #{PORTION_3[:sub_category][:sub_category][:sub_category]}"
   
   
-  PORTION_3[:sub_category][:sub_category] =  PORTION_4
-  puts "First addition: #{PORTION_3}"
+#  PORTION_3[:sub_category][:sub_category] =  PORTION_4
+#  puts "First addition: #{PORTION_3}"
 #  PORTION_2[:sub_category][:sub_category] = PORTION_3
 #  PORTION_1[:sub_category][:sub_category][:sub_category] = PORTION_2
-  classification_HoH = PORTION_1
+#  classification_HoH = PORTION_1
   
-  puts "Full classification => #{classification_HoH}"
+#  puts "Full classification => #{classification_HoH}"
 end
