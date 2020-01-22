@@ -41,8 +41,8 @@ def naming_system
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
-  p "Initial portion = #{PORTION_1}"
-  add_sub_category = PORTION_1[:Kingdom][:Phylum][:Class][:sub_category]
-  p "sub_category = #{add_sub_category}"
+  p "Portion 3 = #{PORTION_3}"
+  p "Genus = #{PORTION_3[:Family]}"
+  
   {}
 end
