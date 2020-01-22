@@ -44,6 +44,6 @@ def naming_system
   
   PORTION_3[:sub_category][:sub_category] =  PORTION_4
   
-  p "Lower classification = #{PORTION_3[:sub_category][:label][:sub_category]}"
+  p "Lower classification = #{PORTION_3[:sub_category][:sub_category]}"
   {}
 end
